@@ -20,7 +20,7 @@
                         
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4" bitrate="1200" width="720" height="1152">
-                                <![CDATA[https://dvennd.github.io/ad-assets/output_60_optimized.mp4]]>
+                                <![CDATA[https://dvennd.github.io/ad-assets/67reklama.mp4]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
@@ -42,3 +42,4 @@
         </InLine>
     </Ad>
 </VAST>
+
