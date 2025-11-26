@@ -3,11 +3,12 @@
         <InLine>
             <AdSystem>DirectDeal</AdSystem>
             <AdTitle>AmazonAppAd</AdTitle>
-            <Impression><![CDATA[]]></Impression>
+            <Impression><![CDATA[https://www.google.com]]></Impression>
+            
             <Creatives>
                 <Creative>
                     <Linear>
-                        <Duration>00:00:18</Duration> 
+                        <Duration>00:00:18</Duration>
                         <VideoClicks>
                             <ClickThrough>
                                 <![CDATA[amzn://apps/android?asin=B0G15SJYVL]]>
@@ -17,15 +18,26 @@
                             </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile delivery="progressive" type="video/mp4" bitrate="1000" width="720" height="1152" scalable="true" maintainAspectRatio="true">
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="700" width="720" height="1152" scalable="true" maintainAspectRatio="true">
                                 <![CDATA[https://dvennd.github.io/ad-assets/67reklama.mp4]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
+
+                <Creative>
+                    <CompanionAds>
+                        <Companion width="720" height="1152">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://dvennd.github.io/ad-assets/endcard.jpg]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[amzn://apps/android?asin=B0G15SJYVL]]>
+                            </CompanionClickThrough>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
             </Creatives>
         </InLine>
     </Ad>
-
 </VAST>
-
