@@ -6,8 +6,8 @@
             <Impression><![CDATA[https://www.google.com]]></Impression>
             <Creatives>
                 <Creative>
-                    <Linear skipoffset="00:00:18">
-                        <Duration>00:00:19</Duration>
+                    <Linear skipoffset="00:00:16">
+                        <Duration>00:00:17</Duration>
                         
                         <VideoClicks>
                             <ClickThrough>
@@ -42,4 +42,5 @@
         </InLine>
     </Ad>
 </VAST>
+
 
